@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    height: 100%;
+    background-color: var(--blue);
+    justify-content: center;
+    align-content: center;
+}
+
+.content {
+    color: var(--white);
+    font-family: var(--font);
+}
+
+h1 {
+    padding-bottom: 8px;
+}
+
+.text-1 {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.text-2 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+button {
+    width: 180px;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 20px;
+    background-color: var(--white);    
+    color: var(--blue);
+    font-family: var(--font-secondary);
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: var(--blue);    
+    box-shadow: inset 0 0 0 3px #ffffff;
+    color: var(--white);
+}
