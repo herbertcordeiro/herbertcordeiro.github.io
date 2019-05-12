@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 500px 1fr;
+}
+
+.content-part-1 {
+    background-color: var(--blue);
+}
+
+.content-photo {
+    width: 340px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    background-image: url(../assets/img/me.png);
+    border-radius: 10px;
+}
+
+.content-part-2 {
+    margin: 120px 100px;
+}
+
+.content-part-2 h1 {
+    color: var(--blue);
+    font-family: var(--font);
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.profession {
+    color: var(--gray);
+    font-family: var(--font);
+    font-weight: 300;
+    padding: 6px 0;
+    margin-bottom: 60px;
+}
+
+.about {
+    line-height: 1.5em;
+    color: var(--gray);
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin-bottom: 280px;
+}
+
+button {
+    width: 180px;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: var(--font-secondary);
+    letter-spacing: 0.05em;
+    margin: 0 20px 0 0;
+}
+
+.contact {
+    background-color: var(--blue);    
+    color: var(--white);
+}
+
+.portfolio {
+    background-color: var(--white);    
+    color: var(--blue);
+    box-shadow: inset 0 0 0 2.5px var(--blue);
+}
