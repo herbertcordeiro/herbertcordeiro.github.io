@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/herbertcordeiro/herbertcordeiro.github.io/issues"
   },
-  "homepage": "https://github.com/herbertcordeiro/herbertcordeiro.github.io#readme"
+  "homepage": "https://github.com/herbertcordeiro/herbertcordeiro.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
