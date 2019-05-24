@@ -1,7 +1,7 @@
 {
   "name": "herbertcordeiro.github.io",
   "version": "1.0.0",
-  "description": "personal site",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/herbertcordeiro/herbertcordeiro.github.io.git"
   },
-  "author": "@herbertcordeiro",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/herbertcordeiro/herbertcordeiro.github.io/issues"
   },
-  "homepage": "https://github.com/herbertcordeiro/herbertcordeiro.github.io#readme",
-  "dependencies": {
-    "jquery": "^3.4.1"
-  }
+  "homepage": "https://github.com/herbertcordeiro/herbertcordeiro.github.io#readme"
 }

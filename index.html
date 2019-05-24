@@ -1,50 +1,235 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hello, I'm Herbert Cordeiro.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/colors.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <link rel="shortcut icon" href="favicon.ico">
-</head>
-
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>herbertcordeiro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars0.githubusercontent.com/u/17026376?v=4" type="image/png"></head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1 class="text-1"> Hi, </h1>
-            <div class="animate-svg-index">
-                    <svg viewBox="0 0 3310.46 279.38">
-                        <defs>
-                            <style type="text/css">
-                                <![CDATA[
-                                   .fil0 {fill:#FEFEFE;fill-rule:nonzero}
-                                ]]>
-                            </style>
-                        </defs>
-                        <path class="fil0" d="M4.23 16.32l67.04 0 0 256.78 -67.04 0 0 -256.78zm114.73 93.66c-6.91,0 -11.86,-0.46 -14.86,-1.39l0 -24.88c7.15,0 10.72,-3.57 10.72,-10.71l0 -5.19 -3.8 0c-2.54,0 -4.61,-0.75 -6.22,-2.24 -1.62,-1.5 -2.42,-3.63 -2.42,-6.4l0 -39.39c0,-6.23 2.88,-9.34 8.64,-9.34l41.81 0c5.53,0 8.3,3.11 8.3,9.34l0 55.29c0,13.13 -4.21,22.23 -12.62,27.3 -8.41,5.07 -18.26,7.61 -29.55,7.61zm72.93 -23.16l55.98 0 11.06 17.97c9.22,-6.91 17.92,-12.15 26.1,-15.72 8.17,-3.57 18.6,-5.36 31.27,-5.36 11.06,0 20.39,2.25 28,6.74 7.6,4.49 13.47,10.66 17.62,18.49 22.12,-16.82 41.7,-25.23 58.75,-25.23 22.58,0 38.13,5.88 46.66,17.63 8.52,11.75 12.79,29.83 12.79,54.26l0 117.5 -67.05 0 0 -111.28c0,-6.68 -1.61,-11.35 -4.84,-14 -3.22,-2.65 -7.72,-3.97 -13.48,-3.97 -4.6,0 -9.21,1.03 -13.82,3.11 -4.61,2.07 -8.41,4.6 -11.41,7.6l0 8.64 0 109.9 -67.04 0 0 -111.28c0,-6.68 -1.61,-11.35 -4.84,-14 -3.23,-2.65 -7.72,-3.97 -13.48,-3.97 -4.61,0 -9.21,1.03 -13.82,3.11 -4.61,2.07 -8.41,4.6 -11.41,7.6l0 118.54 -67.04 0 0 -186.28zm408.14 -70.5l67.04 0 0 98.84 76.04 0 0 -98.84 67.04 0 0 256.78 -67.04 0 0 -97.8 -76.04 0 0 97.8 -67.04 0 0 -256.78zm327.63 258.51c-22.12,0 -39.46,-2.71 -52.02,-8.12 -12.55,-5.42 -21.71,-14.92 -27.47,-28.52 -5.76,-13.59 -8.64,-32.83 -8.64,-57.71 0,-25.81 2.59,-45.62 7.77,-59.44 5.19,-13.83 13.83,-23.5 25.92,-29.03 12.1,-5.53 29.21,-8.3 51.33,-8.3 20.5,0 36.34,1.9 47.52,5.7 11.17,3.81 19.23,10.37 24.19,19.7 4.95,9.33 7.43,22.87 7.43,40.61 0,19.35 -5.53,33.06 -16.59,41.13 -11.06,8.06 -27.07,12.09 -48.04,12.09l-33.18 0c0.69,5.99 2.13,10.54 4.32,13.65 2.19,3.11 5.99,5.36 11.41,6.74 5.41,1.39 13.53,2.08 24.36,2.08l50.81 0 0 39.05c-10.6,3.23 -21.26,5.76 -31.97,7.6 -10.72,1.85 -23.1,2.77 -37.15,2.77zm4.14 -110.94c4.61,0 7.95,-1.04 10.03,-3.11 2.07,-2.07 3.11,-5.64 3.11,-10.71 0,-6.69 -1.62,-11.47 -4.84,-14.35 -3.23,-2.88 -8.41,-4.32 -15.55,-4.32 -6.92,0 -11.87,2.31 -14.87,6.92 -2.99,4.6 -4.49,13.13 -4.49,25.57l26.61 0zm97.47 -77.07l52.18 0 14.86 25.92c6.45,-8.75 13.31,-15.72 20.57,-20.91 7.25,-5.18 15.61,-7.77 25.05,-7.77 5.07,0 9.68,0.57 13.83,1.72l0 68.78c-10.6,-0.92 -18.21,-1.38 -22.81,-1.38 -17.28,0 -29.49,4.84 -36.64,14.51l0 105.41 -67.04 0 0 -186.28zm264.73 188.35c-11.06,0 -20.05,-1.55 -26.96,-4.66 -6.91,-3.11 -14.28,-7.89 -22.12,-14.34l-10.37 16.93 -56.67 0 0 -263.69 67.04 0 0 87.78c17.05,-8.99 32.26,-13.48 45.62,-13.48 16.59,0 29.61,3.4 39.05,10.2 9.45,6.79 16.25,17.33 20.4,31.62 4.14,14.28 6.22,33.18 6.22,56.68 0,32.48 -5.13,56.1 -15.38,70.85 -10.26,14.74 -25.87,22.11 -46.83,22.11zm-26.27 -54.26c6.45,0 11.64,-2.82 15.55,-8.46 3.92,-5.65 5.88,-16.88 5.88,-33.7 0,-11.98 -1.04,-21.02 -3.11,-27.13 -2.07,-6.1 -4.61,-10.02 -7.6,-11.75 -3,-1.73 -6.57,-2.59 -10.72,-2.59 -3.91,0 -8.23,0.75 -12.96,2.25 -4.72,1.49 -8,3.05 -9.85,4.66l0 71.54c5.99,3.46 13.6,5.18 22.81,5.18zm197.34 53.92c-22.12,0 -39.46,-2.71 -52.02,-8.12 -12.55,-5.42 -21.71,-14.92 -27.47,-28.52 -5.76,-13.59 -8.64,-32.83 -8.64,-57.71 0,-25.81 2.59,-45.62 7.77,-59.44 5.19,-13.83 13.83,-23.5 25.92,-29.03 12.1,-5.53 29.21,-8.3 51.33,-8.3 20.5,0 36.34,1.9 47.52,5.7 11.17,3.81 19.22,10.37 24.18,19.7 4.95,9.33 7.43,22.87 7.43,40.61 0,19.35 -5.53,33.06 -16.58,41.13 -11.06,8.06 -27.07,12.09 -48.04,12.09l-33.18 0c0.69,5.99 2.13,10.54 4.32,13.65 2.19,3.11 5.99,5.36 11.41,6.74 5.41,1.39 13.53,2.08 24.36,2.08l50.8 0 0 39.05c-10.59,3.23 -21.25,5.76 -31.96,7.6 -10.72,1.85 -23.1,2.77 -37.15,2.77zm4.14 -110.94c4.61,0 7.95,-1.04 10.03,-3.11 2.07,-2.07 3.11,-5.64 3.11,-10.71 0,-6.69 -1.62,-11.47 -4.84,-14.35 -3.23,-2.88 -8.41,-4.32 -15.55,-4.32 -6.92,0 -11.87,2.31 -14.87,6.92 -2.99,4.6 -4.49,13.13 -4.49,25.57l26.61 0zm97.46 -77.07l52.18 0 14.86 25.92c6.45,-8.75 13.31,-15.72 20.57,-20.91 7.25,-5.18 15.61,-7.77 25.05,-7.77 5.07,0 9.68,0.57 13.83,1.72l0 68.78c-10.6,-0.92 -18.21,-1.38 -22.81,-1.38 -17.28,0 -29.49,4.84 -36.64,14.51l0 105.41 -67.04 0 0 -186.28zm229.13 186.28c-16.36,0 -29.21,-2.19 -38.54,-6.57 -9.33,-4.37 -16.07,-11.63 -20.22,-21.77 -4.14,-10.14 -5.87,-24.08 -5.18,-41.82l2.07 -62.9 -28.68 0 0 -42.85 31.45 -10.37 8.29 -52.18 53.22 0 0 52.18 37.67 0 0 53.22 -37.67 0 0 62.56c0,5.99 0.98,10.42 2.94,13.3 1.96,2.88 5.13,4.55 9.51,5.01l23.84 2.42 0 49.77 -38.7 0zm240.19 2.07c-21.2,0 -38.53,-3.45 -52.01,-10.36 -13.48,-6.92 -23.91,-19.93 -31.28,-39.06 -7.37,-19.12 -11.06,-46.42 -11.06,-81.9 0,-34.33 3.86,-61 11.58,-80.01 7.72,-19.01 18.37,-32.08 31.97,-39.23 13.59,-7.14 30.53,-10.71 50.8,-10.71 19.12,0 35.77,1.38 49.94,4.15 14.17,2.76 25.63,5.99 34.39,9.67l0 52.19c-7.61,-1.61 -17.51,-3 -29.72,-4.15 -12.22,-1.15 -25.46,-1.73 -39.75,-1.73 -11.29,0 -19.81,1.67 -25.57,5.02 -5.76,3.34 -9.97,9.96 -12.62,19.87 -2.65,9.9 -3.97,25.11 -3.97,45.62 0,19.58 1.09,34.21 3.28,43.89 2.19,9.67 6.28,16.53 12.27,20.56 5.99,4.03 15.09,6.05 27.3,6.05 30.18,0 53.11,-1.04 68.78,-3.11l0 52.18c-18.44,7.38 -46.54,11.06 -84.33,11.06zm192.5 -0.34c-22.35,0 -39.92,-3.17 -52.71,-9.51 -12.78,-6.33 -22,-16.35 -27.64,-30.06 -5.65,-13.71 -8.47,-32.32 -8.47,-55.82 0,-25.11 2.82,-44.52 8.47,-58.23 5.64,-13.71 14.8,-23.39 27.47,-29.03 12.67,-5.65 30.3,-8.47 52.88,-8.47 22.58,0 40.2,2.94 52.87,8.81 12.68,5.88 21.83,15.73 27.48,29.55 5.64,13.83 8.47,32.95 8.47,57.37 0,24.42 -2.71,43.43 -8.13,57.03 -5.41,13.59 -14.45,23.38 -27.12,29.37 -12.68,5.99 -30.53,8.99 -53.57,8.99zm0 -53.22c6.22,0 10.77,-0.87 13.65,-2.6 2.88,-1.72 4.95,-5.53 6.22,-11.4 1.27,-5.88 1.9,-15.38 1.9,-28.51 0,-12.91 -0.63,-22.29 -1.9,-28.17 -1.27,-5.87 -3.34,-9.68 -6.22,-11.4 -2.88,-1.73 -7.43,-2.6 -13.65,-2.6 -6.22,0 -10.77,0.87 -13.65,2.6 -2.88,1.72 -4.96,5.53 -6.22,11.4 -1.27,5.88 -1.91,15.26 -1.91,28.17 0,13.13 0.64,22.63 1.91,28.51 1.26,5.87 3.34,9.68 6.22,11.4 2.88,1.73 7.43,2.6 13.65,2.6zm114.39 -134.79l52.18 0 14.86 25.92c6.45,-8.75 13.31,-15.72 20.57,-20.91 7.25,-5.18 15.61,-7.77 25.04,-7.77 5.07,0 9.68,0.57 13.83,1.72l0 68.78c-10.6,-0.92 -18.21,-1.38 -22.8,-1.38 -17.28,0 -29.49,4.84 -36.64,14.51l0 105.41 -67.04 0 0 -186.28zm210.11 188.35c-22.12,0 -38.7,-7.14 -49.76,-21.42 -11.06,-14.29 -16.59,-38.13 -16.59,-71.54 0,-23.73 2.07,-42.68 6.22,-56.85 4.15,-14.17 11.29,-24.66 21.43,-31.45 10.13,-6.8 24.19,-10.2 42.16,-10.2 14.05,0 27.88,2.42 41.47,7.26l0 -81.56 67.05 0 0 263.69 -56.68 0 -10.37 -16.93c-14.05,12.67 -29.03,19 -44.93,19zm24.54 -53.56c8.06,0 14.86,-2.31 20.39,-6.92l0 -75.34c-2.53,-1.38 -5.53,-2.7 -8.98,-3.97 -3.46,-1.27 -6.69,-1.9 -9.68,-1.9 -6.68,0 -11.81,1.09 -15.38,3.28 -3.57,2.19 -6.16,6.51 -7.78,12.96 -1.61,6.45 -2.42,16.13 -2.42,29.03 0,12.67 0.75,22 2.25,27.99 1.5,6 3.86,9.97 7.09,11.93 3.22,1.96 8.06,2.94 14.51,2.94zm200.45 53.22c-22.12,0 -39.46,-2.71 -52.02,-8.12 -12.55,-5.42 -21.71,-14.92 -27.47,-28.52 -5.76,-13.59 -8.64,-32.83 -8.64,-57.71 0,-25.81 2.59,-45.62 7.77,-59.44 5.19,-13.83 13.83,-23.5 25.92,-29.03 12.1,-5.53 29.21,-8.3 51.33,-8.3 20.5,0 36.34,1.9 47.52,5.7 11.17,3.81 19.23,10.37 24.19,19.7 4.95,9.33 7.43,22.87 7.43,40.61 0,19.35 -5.53,33.06 -16.59,41.13 -11.06,8.06 -27.07,12.09 -48.04,12.09l-33.18 0c0.69,5.99 2.13,10.54 4.32,13.65 2.19,3.11 5.99,5.36 11.41,6.74 5.41,1.39 13.53,2.08 24.36,2.08l50.81 0 0 39.05c-10.6,3.23 -21.26,5.76 -31.97,7.6 -10.72,1.85 -23.1,2.77 -37.15,2.77zm4.14 -110.94c4.61,0 7.95,-1.04 10.03,-3.11 2.07,-2.07 3.11,-5.64 3.11,-10.71 0,-6.69 -1.62,-11.47 -4.84,-14.35 -3.23,-2.88 -8.41,-4.32 -15.55,-4.32 -6.92,0 -11.87,2.31 -14.87,6.92 -2.99,4.6 -4.49,13.13 -4.49,25.57l26.61 0zm105.07 -100.57c-2.53,0 -4.55,-0.75 -6.05,-2.25 -1.5,-1.49 -2.24,-3.39 -2.24,-5.7l0 -38.36c0,-2.76 0.69,-4.9 2.07,-6.39 1.38,-1.5 3.45,-2.25 6.22,-2.25l52.53 0c2.54,0 4.44,0.81 5.7,2.42 1.27,1.61 1.9,3.69 1.9,6.22l0 38.36c0,5.3 -2.53,7.95 -7.6,7.95l-52.53 0zm-7.6 23.5l67.04 0 0 186.28 -67.04 0 0 -186.28zm97.46 0l52.18 0 14.86 25.92c6.45,-8.75 13.31,-15.72 20.57,-20.91 7.25,-5.18 15.61,-7.77 25.05,-7.77 5.07,0 9.68,0.57 13.83,1.72l0 68.78c-10.6,-0.92 -18.21,-1.38 -22.81,-1.38 -17.28,0 -29.49,4.84 -36.64,14.51l0 105.41 -67.04 0 0 -186.28zm232.59 188.01c-22.35,0 -39.92,-3.17 -52.71,-9.51 -12.78,-6.33 -22,-16.35 -27.64,-30.06 -5.65,-13.71 -8.47,-32.32 -8.47,-55.82 0,-25.11 2.82,-44.52 8.47,-58.23 5.64,-13.71 14.8,-23.39 27.47,-29.03 12.67,-5.65 30.3,-8.47 52.88,-8.47 22.58,0 40.2,2.94 52.87,8.81 12.68,5.88 21.83,15.73 27.48,29.55 5.64,13.83 8.47,32.95 8.47,57.37 0,24.42 -2.71,43.43 -8.13,57.03 -5.41,13.59 -14.45,23.38 -27.12,29.37 -12.68,5.99 -30.53,8.99 -53.57,8.99zm0 -53.22c6.22,0 10.77,-0.87 13.65,-2.6 2.88,-1.72 4.95,-5.53 6.22,-11.4 1.27,-5.88 1.9,-15.38 1.9,-28.51 0,-12.91 -0.63,-22.29 -1.9,-28.17 -1.27,-5.87 -3.34,-9.68 -6.22,-11.4 -2.88,-1.73 -7.43,-2.6 -13.65,-2.6 -6.22,0 -10.77,0.87 -13.65,2.6 -2.88,1.72 -4.96,5.53 -6.22,11.4 -1.27,5.88 -1.91,15.26 -1.91,28.17 0,13.13 0.64,22.63 1.91,28.51 1.26,5.87 3.34,9.68 6.22,11.4 2.88,1.73 7.43,2.6 13.65,2.6z"/>
-                    </svg>
-            </div>
-            <h1 class="text-1"> UI/UX Designer & Front-end Developer </h1>
-            <a class="btn" href="./about.html">about</a>
-            <input id="menu-hamburguer" type="checkbox">
-            <label for="menu-hamburguer">
-                <div class="menu">
-                    <span class="hamburguer"></span>
-                </div>
-            </label>
-            <ul>
-                <li><a class="opt-menu" href="./index.html">home</a></li>
-                <li><a class="opt-menu" href="./about.html">about</a></li>
-                <li><a class="opt-menu" href="#">portfolio</a></li>
-                <li><a class="opt-menu" href="#">contact</a></li>
-            </ul>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/17026376?v=4) center;"></div>
+        <div id="username"><span style="display:block;">Herbert Cordeiro</span>@herbertcordeiro</div>
+        <div id="userbio" style="display: block;">UI Designer &amp; Front-end Developer
+</div>
+        <div id="about">
+                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; Federal University of Paraíba</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; be.net/herbertcordeiro </span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; /world/brazil/pb/joao-pessoa</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+    </div>
+    <div id="display">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                        <a href="https://github.com/herbertcordeiro/test-svg" target="_blank">
+                        <section>
+                            <div class="section_title">test-svg</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/tec-cid-labdados" target="_blank">
+                        <section>
+                            <div class="section_title">tec-cid-labdados</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/simulador-uniformes" target="_blank">
+                        <section>
+                            <div class="section_title">simulador-uniformes</div>
+                            <div class="about_section">
+                            <span style="display:block;">DSC 2018.2</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/animais-fantasticos" target="_blank">
+                        <section>
+                            <div class="section_title">animais-fantasticos</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/learning-electron" target="_blank">
+                        <section>
+                            <div class="section_title">learning-electron</div>
+                            <div class="about_section">
+                            <span style="display:block;">📏🔁 measurement converter using Electron.js </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/goweek-api" target="_blank">
+                        <section>
+                            <div class="section_title">goweek-api</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/roteiros-bd" target="_blank">
+                        <section>
+                            <div class="section_title">roteiros-bd</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/tic-tac-toe" target="_blank">
+                        <section>
+                            <div class="section_title">tic-tac-toe</div>
+                            <div class="about_section">
+                            <span style="display:block;"> <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ae.png?v8" class="emoji"> tic-tac-toe made with html5, css3 and javascript</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/helpdesk" target="_blank">
+                        <section>
+                            <div class="section_title">helpdesk</div>
+                            <div class="about_section">
+                            <span style="display:block;">Projeto desenvolvido na disciplina de Projeto Avançado de Software 1.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/ads-2018-1" target="_blank">
+                        <section>
+                            <div class="section_title">ads-2018-1</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png?v8" class="emoji"> Exercícios da disciplina Avaliação de Desempenho de Sistemas 2018.1</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/pas-2018-1" target="_blank">
+                        <section>
+                            <div class="section_title">pas-2018-1</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png?v8" class="emoji"> Exercícios da disciplina Projeto Avançado de Software 1 - 2018.1</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/herbertcordeiro/herbertcordeiro.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">herbertcordeiro.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+        </div>
+        <div id="forks" style="display:none;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
         </div>
     </div>
-</body>
+    <script type="text/javascript">
+    setTimeout(function(){
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function(){
+        document.getElementById("loading").classList.remove("animated");
+        document.getElementById("loading").classList.remove("fadeOut");
+        document.getElementById("loading").style.display = "none";
+        },800);
+    },1500);
+    $.getJSON("blog.json", function(blog){
+        blog = blog || [];
+        if(blog.length == 0){
+            return document.getElementById("blog_section").style.display = "none";
+        }
+        for(var i = 0; i < blog.length; i++){
+            $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+    }).fail(function(){
+        return document.getElementById("blog_section").style.display = "none";
+    });
+    </script>
 
-</html>
+</body></html>
